@@ -29,3 +29,8 @@ cancelBtn.addEventListener("click", () =>
         taskForm.classList.toggle("hidden");
       });
 
+      taskForm.addEventListener("submit", (e) => {
+        e.preventDefault()
+      }
+      )
+
