@@ -33,4 +33,5 @@ cancelBtn.addEventListener("click", () =>
         e.preventDefault()
       }
       )
-const dataArrIndex = taskData.findIndex((task) => task.id === currentTask.id);
+const dataArrIndex = taskData.findIndex((task) => 
+task.id === currentTask.id);
